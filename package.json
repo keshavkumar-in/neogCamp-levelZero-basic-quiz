@@ -1,0 +1,30 @@
+{
+  "name": "neogcamp-levelzero-basic-quiz",
+  "version": "1.0.0",
+  "description": "This repository contains neogCamp's lessonOne basic quiz app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavkumar-in/neogCamp-levelZero-basic-quiz.git"
+  },
+  "keywords": [
+    "neogcamp",
+    "levelzero",
+    "lesson",
+    "two",
+    "assignment"
+  ],
+  "author": "Keshav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keshavkumar-in/neogCamp-levelZero-basic-quiz/issues"
+  },
+  "homepage": "https://github.com/keshavkumar-in/neogCamp-levelZero-basic-quiz#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}
