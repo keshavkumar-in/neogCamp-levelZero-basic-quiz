@@ -11,7 +11,7 @@ In this repository, I have used two `npm` packages for better user experience.
 
 > Use `npm install readline-sync` to install
 
-`readline-sync` is used to have a simple conversational UI in CLI applications. You can use it to ask user different types of questions and get answered. It supports many different types of question formats like YES/NO or MCQs or simple explaination questions. You can read more [here](https://www.npmjs.com/package/readline-sync).
+`readline-sync` is used to have a simple conversational UI in CLI applications. You can use it to ask user different types of questions and get answered. It supports many different types of question formats like YES/NO or MCQs or simple explanation questions. You can read more [here](https://www.npmjs.com/package/readline-sync).
 
 In this app, I have used the basic `question()` function.
 
