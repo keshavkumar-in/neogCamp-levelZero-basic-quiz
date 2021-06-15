@@ -14,22 +14,27 @@ var highScore = [
 ];
 
 var questionOne = {
-  question: "What does HTML stand for?\n",
-  answer: "Hyper Text Markup Language",
+  question: "What is my age?\n",
+  answer: "23",
 };
 
 var questionTwo = {
-  question: "What is the correct HTML element for the largest heading?\n",
-  answer: "h1",
+  question: "Where do I live?\n",
+  answer: "Patna",
 };
 
-var questions = [questionOne, questionTwo];
+var questionThree = {
+  question: "What is my favourite subject?\n",
+  answer: "Computer Science",
+};
+
+var questions = [questionOne, questionTwo, questionThree];
 
 var userName = readlineSync.question("What is your name? ");
-console.log("Welcome " + userName + ", to HTML Basics Quiz.");
+console.log("Welcome " + userName + ", to Do You Know Me Quiz.");
 console.log("-----------------");
 
-function htmlQuiz(question, answer) {
+function basicQuiz(question, answer) {
   var userAnswer = readlineSync.question(question);
 
   if (userAnswer.toLowerCase() === answer.toLowerCase()) {
@@ -42,7 +47,7 @@ function htmlQuiz(question, answer) {
 
 for (var i = 0; i < questions.length; i++) {
   var currentQuestion = questions[i];
-  htmlQuiz(currentQuestion.question, currentQuestion.answer);
+  basicQuiz(currentQuestion.question, currentQuestion.answer);
 }
 
 console.log(info("-------------"));
